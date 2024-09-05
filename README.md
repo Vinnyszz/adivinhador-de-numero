@@ -24,4 +24,5 @@ Um jogo simples de adivinhação de números, onde o usuário tenta adivinhar um
 
 ## Autor
 Desenvolvido por @Vinnyszz
+
 Linkedin: https://www.linkedin.com/in/viniciusprudente/
