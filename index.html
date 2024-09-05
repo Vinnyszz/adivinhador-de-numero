@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advinhador de número</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Adivinha números</h1><br>
+    <h3>Selecione o intervalo:</h3>
+    <input type="number" id="minNumber" placeholder="min">
+    <input type="number" id="maxNumber" placeholder="max"><br><br>
+    <button id="startBtn">Reiniciar jogo</button>
+    <button id="genNumber">Gerar número</button><br><br><br>
+    <h3 id="statusNumber" data-status = '1' >Sem número gerado</h3>
+    <label for="userNumber">Digite um número: </label>
+    <input type="text" id="userNumber">
+    <button id="tryBtn" disabled>Escolher</button>
+    <h3 id="tryCount"></h3>
+</body>
+<footer>
+    <p>Desenvolvido por @Vinnyszz</p>
+</footer>
+</html>
